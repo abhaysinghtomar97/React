@@ -4,7 +4,7 @@
 
 06-tailwind:
 
-    One more step towards Feasibility by doing simple styling by Tailwid css
+    One more step towards Feasibility of doing simple styling by Tailwid css
 
     Here,  'vite.config.js' need to update by importing 'import tailwindcss from '@tailwindcss/vite'.
     Also in 'index.css'  -> '@import "tailwindcss";'
