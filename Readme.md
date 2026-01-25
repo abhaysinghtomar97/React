@@ -8,3 +8,11 @@
 
     Here,  'vite.config.js' need to update by importing 'import tailwindcss from '@tailwindcss/vite'.
     Also in 'index.css'  -> '@import "tailwindcss";'
+
+
+
+
+13- API Handling:
+
+    to get fake or dummy data => json placeholder
+    to get fake or dummy images => picsum
