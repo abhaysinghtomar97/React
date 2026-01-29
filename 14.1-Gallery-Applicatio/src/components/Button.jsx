@@ -7,9 +7,7 @@ function Button(props) {
             onClick={props.onClick}
            className={`
         px-4 py-2 rounded
-        ${props.disable 
-          ? 'bg-gray-600 cursor-not-allowed opacity-50' 
-          : 'bg-amber-400 text-black hover:bg-amber-700'}
+        ${props.disable ? 'bg-gray-600 cursor-not-allowed opacity-50' : 'bg-amber-400 text-black hover:bg-amber-700'}
       `}            >
             {props.text}
         </button>

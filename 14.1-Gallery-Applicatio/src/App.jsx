@@ -13,7 +13,7 @@ const App = () => {
 
     async function getData() {
         const response = await axios.get(`https://picsum.photos/v2/list?page=${index}&limit=14`)
-        
+        console.log(response.data)
         setUserData(response.data)
     }
 
